@@ -38,6 +38,9 @@ public void close() {
 @Before ("@Smoke")
 public void open1() {
 	System.out.println("Before every single scenerio");
+	System.out.println("After every single scenerio");
+	System.out.println("After every single scenerio");
+	System.out.println("After every single scenerio");
 }
 @After ("@Smoke") 
 public void close1() {
