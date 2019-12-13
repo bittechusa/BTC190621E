@@ -29,6 +29,7 @@ public class Stepdefination {
 public void open() {
 	System.out.println("Before every single scenerio");
 	System.out.println("Before every single scenerio");
+	System.out.println("Before every single scenerio");
 }
 @After 
 public void close() {
